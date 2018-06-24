@@ -1,24 +1,41 @@
 # Ioomc
 
 #### 项目介绍
-{**以下是码云平台说明，您可以替换为您的项目简介**
-码云是开源中国推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用码云实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+利用react redux react-router 构建一个SPA demo
+包含一个登录页面 和世界杯球队展示页面
 
 #### 软件架构
-软件架构说明
+src
+  components 
+      Login
+      Teams
+        index
+        Germany
+        Brazil
+        Belguim
+        China 
+  actions
+    index.js (login logout)
+  reducers 
+    loginReducer
+  
+  App.js
+  index.js
+    
 
 
 #### 安装教程
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. create-react-app world-cup-demo 利用create-reacct-app 搭建项目
+2. npm run eject  弹出配置(不可逆)
+3. npm install --save react-router-dom  安装react-router-dom (当前最新版本为router4)
+4. npm install babel-plugin-transform-decorators-legacy   安装装载器插件
+5. 
 
 #### 使用说明
 
-1. xxxx
-2. xxxx
+1. npm start  启动webpack-dev-server
+2. 浏览器访问 localhost:3000
 3. xxxx
 
 #### 参与贡献
@@ -29,11 +46,3 @@
 4. 新建 Pull Request
 
 
-#### 码云特技
-
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [http://git.mydoc.io/](http://git.mydoc.io/)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
